@@ -4,7 +4,7 @@ from datetime import datetime, date
 # File where tasks will be stored
 TASK_FILE = "tasks.json"
 
-# Load existing tasks from file
+# Loading existing tasks from file
 def load_tasks():
     try:
         with open(TASK_FILE, "r") as file:
@@ -144,3 +144,4 @@ def to_do_list_app():
 
 # Start the app
 to_do_list_app()
+
